@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View profile" />
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Change password" />
+        <item
+            android:id="@+id/exam_notification"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Exam notification" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notification" />
+        <item
+            android:id="@+id/send_complaint"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/send_feedback"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/view_career"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Career" />
+        <item
+            android:id="@+id/view_material"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Materials" />
+        <item
+            android:id="@+id/view_result"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Result" />
+    </group>
+</menu>
