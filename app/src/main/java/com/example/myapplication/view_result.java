@@ -87,15 +87,13 @@ String[] exm_id,_student_id,mark,date,exm_name;
                         Toast.makeText(getApplicationContext(), "eeeee" + error.toString(), Toast.LENGTH_SHORT).show();
                     }
                 }
-        ) {
+        )
+        {
             @Override
             protected Map<String, String> getParams() {
                 SharedPreferences sh = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
                 Map<String, String> params = new HashMap<String, String>();
-
                 params.put("lid",sh.getString("lid",""));
-
-
                 return params;
             }
         };

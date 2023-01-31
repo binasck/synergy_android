@@ -19,7 +19,7 @@ Button connect;
         setContentView(R.layout.activity_main);
 
         address=(EditText) findViewById(R.id.editTextTextPersonName7);
-        connect=(Button) findViewById(R.id.button7);
+        connect=(Button) findViewById(R.id.button6);
         connect.setOnClickListener(this);
 
     }

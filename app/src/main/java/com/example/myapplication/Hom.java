@@ -31,7 +31,7 @@ public class Hom extends AppCompatActivity implements NavigationView.OnNavigatio
         binding = ActivityHomBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setSupportActionBar(binding.appBarHom.toolbar);
+//        setSupportActionBar(binding.appBarHom.toolbar);
 //        binding.appBarHom.fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -48,7 +48,7 @@ public class Hom extends AppCompatActivity implements NavigationView.OnNavigatio
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_hom);
-        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
+//        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
         navigationView.setNavigationItemSelectedListener(this);
     }
