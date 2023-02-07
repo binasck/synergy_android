@@ -19,7 +19,6 @@ public class custom_career  extends BaseAdapter {
         this.desrip=desrip;
     }
 
-
     @Override
     public int getCount() {
         return date.length;

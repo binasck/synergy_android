@@ -15,6 +15,7 @@
         android:layout_marginEnd="325dp"
         android:layout_marginRight="325dp"
         android:text="Date"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,6 +30,7 @@
         android:layout_marginEnd="351dp"
         android:layout_marginRight="351dp"
         android:text="Time"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView32" />
@@ -43,6 +45,7 @@
         android:layout_marginEnd="335dp"
         android:layout_marginRight="335dp"
         android:text="Career"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView33" />
@@ -57,6 +60,7 @@
         android:layout_marginEnd="312dp"
         android:layout_marginRight="312dp"
         android:text="Description"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView34" />

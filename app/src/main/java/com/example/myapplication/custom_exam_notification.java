@@ -68,8 +68,6 @@ public class custom_exam_notification extends BaseAdapter {
         TextView tv2=(TextView)gridView.findViewById(R.id.textView24);
         TextView tv3=(TextView)gridView.findViewById(R.id.textView25);
 
-
-
         tv1.setText(date[i]);
         tv2.setText(from_name[i]);
         tv3.setText(noti[i]);
