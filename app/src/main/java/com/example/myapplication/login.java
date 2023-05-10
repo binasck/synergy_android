@@ -39,11 +39,9 @@ public class login extends AppCompatActivity implements View.OnClickListener {
         password = (EditText) findViewById(R.id.editTextTextPassword);
         login = (Button) findViewById(R.id.button);
         signup = (Button) findViewById(R.id.button2);
-        forgot = (TextView) findViewById(R.id.textView2);
-        keep = (CheckBox) findViewById(R.id.checkBox);
         login.setOnClickListener(this);
         signup.setOnClickListener(this);
-        forgot.setOnClickListener(this);
+
     }
 
     @Override
@@ -101,7 +99,7 @@ public class login extends AppCompatActivity implements View.OnClickListener {
 
                                     // }
                                     else {
-                                        Toast.makeText(getApplicationContext(), "Not found", Toast.LENGTH_LONG).show();
+                                        Toast.makeText(getApplicationContext(), "Not a valid user!Please Signup", Toast.LENGTH_LONG).show();
                                     }
 
                                 } catch (Exception e) {
@@ -141,5 +139,11 @@ public class login extends AppCompatActivity implements View.OnClickListener {
             }
         }
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(getApplicationContext(),MainActivity.class));
     }
 }

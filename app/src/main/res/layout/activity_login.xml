@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/qwer"
+    android:background="@drawable/a1"
     android:layout_height="match_parent"
     tools:context=".login">
 
@@ -16,7 +16,7 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="255dp"
+        android:layout_marginTop="360dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/bg_shape_1"
@@ -47,61 +47,48 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="Keep me sigined in?"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="Forgot password?"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkBox"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="26dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:text="Keep me sigined in?"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.22"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />-->
 
     <Button
         android:id="@+id/button"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="45dp"
-        android:layout_marginStart="155dp"
-        android:layout_marginLeft="155dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="155dp"
-        android:layout_marginRight="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="@drawable/logbutt"
-        android:text="Login"
+        android:text="Login                       ➔"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="45dp"
-        android:layout_marginStart="155dp"
-        android:layout_marginLeft="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="155dp"
-        android:layout_marginRight="155dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="@drawable/sibutt"
         android:text="Signup"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,29 +101,32 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
         android:text="Don't have an account?"
+        android:textColor="@color/black"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="359dp"
-        android:layout_height="158dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="59dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/login" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="62dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="296dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/shield" />-->
 
 
 </android.support.constraint.ConstraintLayout>

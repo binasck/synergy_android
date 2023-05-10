@@ -79,6 +79,7 @@ byte[] byteArray=null;
                         try {
                             JSONObject jsonObj = new JSONObject(response);
                             if (jsonObj.getString("status").equalsIgnoreCase("ok")) {
+                                Toast.makeText(edit_profile.this, "", Toast.LENGTH_SHORT).show();
                                 JSONObject jj = jsonObj.getJSONObject("data");
 
 

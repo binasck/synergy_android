@@ -31,14 +31,13 @@ public class Hom extends AppCompatActivity implements NavigationView.OnNavigatio
         binding = ActivityHomBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-//        setSupportActionBar(binding.appBarHom.toolbar);
-//        binding.appBarHom.fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
+        setSupportActionBar(binding.appBarHom.toolbar);
+        binding.appBarHom.fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), View_StaffActivity2.class));
+            }
+        });
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
@@ -48,7 +47,7 @@ public class Hom extends AppCompatActivity implements NavigationView.OnNavigatio
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_hom);
-//        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
+        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
         navigationView.setNavigationItemSelectedListener(this);
     }
@@ -113,6 +112,11 @@ public class Hom extends AppCompatActivity implements NavigationView.OnNavigatio
         else if (R.id.view_result==id)
         {
             Intent i=new Intent(getApplicationContext(),view_result.class);
+            startActivity(i);
+        }
+        else if (R.id.logout==id)
+        {
+            Intent i=new Intent(getApplicationContext(),login.class);
             startActivity(i);
         }
         return false;

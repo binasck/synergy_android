@@ -22,6 +22,10 @@ Button connect;
         connect=(Button) findViewById(R.id.button6);
         connect.setOnClickListener(this);
 
+        SharedPreferences sh=PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        address.setText(sh.getString("ip",""));
+
+
     }
 
     @Override
@@ -39,5 +43,15 @@ Button connect;
             Intent it = new Intent(getApplicationContext(), login.class);
             startActivity(it);
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent it=new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(it);
+        Intent i=new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_HOME);
+        startActivity(i);
+
     }
 }

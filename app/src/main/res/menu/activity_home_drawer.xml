@@ -6,39 +6,43 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/view_profile"
-            android:icon="@drawable/user"
+            android:icon="@drawable/aqqq"
             android:title="View profile" />
         <item
             android:id="@+id/change_password"
-            android:icon="@drawable/reload"
+            android:icon="@drawable/pqqq"
             android:title="Change password" />
         <item
             android:id="@+id/exam_notification"
-            android:icon="@drawable/exam"
+            android:icon="@drawable/eqqq"
             android:title="Exam notification" />
         <item
             android:id="@+id/notification"
-            android:icon="@drawable/chat"
+            android:icon="@drawable/nqqq"
             android:title="Notification" />
         <item
             android:id="@+id/send_complaint"
-            android:icon="@drawable/bddr"
+            android:icon="@drawable/cqqq"
             android:title="Complaint" />
         <item
             android:id="@+id/send_feedback"
-            android:icon="@drawable/comment"
+            android:icon="@drawable/fqqq"
             android:title="Feedback" />
         <item
             android:id="@+id/view_career"
-            android:icon="@drawable/goal"
+            android:icon="@drawable/gqqq"
             android:title="Career" />
         <item
             android:id="@+id/view_material"
-            android:icon="@drawable/books"
+            android:icon="@drawable/mqqq"
             android:title="Materials" />
         <item
             android:id="@+id/view_result"
-            android:icon="@drawable/resu"
+            android:icon="@drawable/rqqq"
             android:title="Result" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
     </group>
 </menu>

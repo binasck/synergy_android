@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Signup"
-    android:background="@drawable/qwer">
+    android:background="@drawable/aysha">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -137,12 +137,14 @@
 
             <RadioButton
                 android:id="@+id/radiobutton5"
+                android:textColor="#ffffff"
                 android:layout_width="166dp"
                 android:layout_height="46dp"
                 android:text="Male" />
 
             <RadioButton
                 android:id="@+id/radioButton6"
+                android:textColor="#ffffff"
                 android:layout_width="181dp"
                 android:layout_height="46dp"
                 android:text="Female" />
@@ -210,7 +212,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_style"
             android:text="Signup"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

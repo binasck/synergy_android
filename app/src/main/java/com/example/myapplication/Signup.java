@@ -117,6 +117,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
                                 try {
                                     JSONObject jsonObj = new JSONObject(response);
                                     if (jsonObj.getString("status").equalsIgnoreCase("ok")) {
+                                        Toast.makeText(Signup.this, "Signup success..Please wait for approval", Toast.LENGTH_SHORT).show();
                                         Intent I=new Intent(getApplicationContext(),login.class);
                                         startActivity(I);
                                     }

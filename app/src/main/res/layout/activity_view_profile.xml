@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/aysha"
     android:layout_height="match_parent"
     tools:context=".view_profile">
 
@@ -12,8 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="22dp"
         android:text="Name"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -34,13 +36,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginLeft="52dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="Name:"
+        android:textColor="@color/black"
+        android:textSize="17dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
         android:id="@+id/textView7"
+        android:textSize="17dp"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -56,8 +62,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="17dp"
         android:text="Gender"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -69,6 +76,8 @@
         android:layout_marginLeft="52dp"
         android:layout_marginTop="15dp"
         android:text="Place:"
+        android:textSize="17dp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -80,6 +89,8 @@
         android:layout_marginLeft="52dp"
         android:layout_marginTop="15dp"
         android:text="Post:"
+        android:textSize="17dp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -91,6 +102,8 @@
         android:layout_marginLeft="52dp"
         android:layout_marginTop="15dp"
         android:text="District:"
+        android:textSize="17dp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -102,6 +115,8 @@
         android:layout_marginLeft="52dp"
         android:layout_marginTop="15dp"
         android:text="E-mail"
+        android:textSize="17dp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -113,6 +128,8 @@
         android:layout_marginLeft="52dp"
         android:layout_marginTop="15dp"
         android:text="Phone:"
+        android:textSize="17dp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -124,6 +141,8 @@
         android:layout_marginLeft="52dp"
         android:layout_marginTop="15dp"
         android:text="Qualification:"
+        android:textSize="17dp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -133,10 +152,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="17dp"
         android:text="Place"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/textView16"
@@ -144,8 +164,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="17dp"
         android:text="Post"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -155,8 +176,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="17dp"
         android:text="District15"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -168,6 +190,7 @@
         android:layout_marginLeft="150dp"
         android:layout_marginTop="15dp"
         android:text="email"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -177,8 +200,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="19dp"
         android:text="Phone"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView12"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -188,8 +212,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="16dp"
         android:text="Qualification"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/textView13"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
@@ -200,6 +225,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginLeft="52dp"
         android:layout_marginTop="40dp"
+        android:background="@drawable/button_style"
         android:text="Edit profile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
